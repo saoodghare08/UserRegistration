@@ -57,7 +57,7 @@ const Login = () => {
             Login
           </button>
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/UserRegistration/')}
             className="text-blue-500 hover:text-blue-600 font-bold"
           >
             Back

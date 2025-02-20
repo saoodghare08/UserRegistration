@@ -11,7 +11,7 @@ const App = () => {
       <div className="min-h-screen flex flex-col justify-center items-center bg-gray-300">
         <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/UserRegistration/" element={<Home />} />
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />} />
