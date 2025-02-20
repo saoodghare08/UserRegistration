@@ -28,7 +28,7 @@ const Register = () => {
     alert('Registration successful');
   
     // Redirect to home after signup
-    navigate('/');
+    navigate('/UserRegistration/');
   };
   
 

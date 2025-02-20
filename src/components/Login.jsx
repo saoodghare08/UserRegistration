@@ -18,7 +18,7 @@ const Login = () => {
   
     if (matchedUser) {
       alert('Login successful');
-      navigate('/dashboard');
+      navigate('/UserRegistration/dashboard');
     } else {
       alert('Invalid email or password');
     }

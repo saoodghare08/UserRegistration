@@ -12,9 +12,9 @@ const App = () => {
         <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
           <Routes>
             <Route path="/UserRegistration/" element={<Home />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/UserRegistration/register" element={<Register />} />
+            <Route path="/UserRegistration/login" element={<Login />} />
+            <Route path="/UserRegistration/dashboard" element={<Dashboard />} />
           </Routes>
         </div>
       </div>
